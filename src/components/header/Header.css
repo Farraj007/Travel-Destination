@@ -1,0 +1,38 @@
+/* h1 {
+    float : left;
+}
+#logoH {
+    float: left;
+    height: 8%;
+    width: 8%;
+} */
+nav{
+    display: flex;
+    margin: 0px;
+    padding: 0 10px;
+    align-items:center;
+    justify-content: space-evenly ;
+}
+#logoH {
+    width :100px;
+    height :100px;
+}
+#navigation {
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li a{
+    display: flex;
+    justify-content: space-between;
+}
+#search {
+    border-radius: 50%;
+}

@@ -1,0 +1,24 @@
+#cc{
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.footer-container {
+    display: flex;
+    padding: 0px;
+    width: 85%;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+}
+.footer-container a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.sub .sub-box {
+margin-top: 20px;
+}
