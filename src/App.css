@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+#header {
+  background-color: cyan;
+  color: #fff;
+  margin: 0;
+  padding: 0 10px;
+  align-items: center;
+}
+#footer {
+  background-color: cyan;
+  color: #fff;
+  margin: 0px;
+  padding: 10px 0px;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  align-content: center;
+}
