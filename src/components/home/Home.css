@@ -1,4 +1,4 @@
-#header {
+/* #header {
     background-color: cyan;
     color: #fff;
     margin: 0;
@@ -13,7 +13,7 @@
     display: flex;
     flex-flow: column-reverse wrap;
     align-content: center;
-}
+} */
 #inside {
     display:flex;
     flex-flow: column wrap;

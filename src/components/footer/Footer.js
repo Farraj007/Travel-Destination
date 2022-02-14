@@ -6,31 +6,31 @@ function Footer() {
     <><div id="cc">
     <p>Copy Right Reserved @2020</p>
   </div>
-  <div class="footer-container">
-    <div class="footer-1">
+  <div className="footer-container">
+    <div className="footer-1">
       <h3>About Us</h3>
       <a href="#">Blog</a>
       <a href="#">Creators</a>
       <a href="#">Staff</a>
       <a href="#">Investors</a>
     </div>
-    <div class="footer-2">
+    <div className="footer-2">
       <h3>Contact Us</h3>
       <a href="#">Jobs</a>
       <a href="#">Support</a>
       <a href="#">Contact</a>
       <a href="#">Internship</a>
     </div>
-    <div class="footer-3">
+    <div className="footer-3">
       <h3>Social Media</h3>
       <a href="#">Facebook</a>
       <a href="#">Youtube</a>
       <a href="#">Instagram</a>
       <a href="#">Discord</a>
     </div>
-    <div class="sub">
+    <div className="sub">
       <h3>Subscribe to Our Newsletter</h3>
-      <div class="sub-box">
+      <div className="sub-box">
       <input type="Email" placeholder="Type your Email" id="box" />
       <input type="submit" value="Sign Up" id="signup-button" />
       </div>
