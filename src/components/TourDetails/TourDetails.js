@@ -1,18 +1,20 @@
 import { useParams } from "react-router-dom";
-import Tour from "../tours/tour/Tour.js";
+
 
 function TourDetails(props) {
   let { id } = useParams();
-  let Info;
-  for (let i of props.tour) {
-    if (i.id == id) {
-      Info = i;
-    }
-  }
+  let info;
+  
+function toggleExpand (){
+props.expand()
+}  
+  info=props.tour.find(a=> a.id === id)
   return (
     <>
-      <h4>{Info.name}</h4>
-      <p>{Info.info}</p>
+    {console.log(info)}
+       <h4>{info.name}</h4>
+     { props.isExpanded ? <> <p>{info.info}</p> <img src={info.image}/> </>:<p> {info.info.substring(0,250)}... </p>}
+     {!props.isExpanded?<button onClick={toggleExpand}>Show More</button>:<button onClick={toggleExpand}>Show Less</button>} 
     </>
   );
 }
